@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KILIFI WATER POINT SYSTEM</title>
+    <script src="editting.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="current.html">Technicians</a>
+            <a href="home.html">Report Water Issues</a>
+            <a href="history.html">History</a>
+            <a href="about.html">About us.</a>
+            <a href="contact.html">Contact Info.</a>
+        </nav>
+    </header>
+
+
+    <h2 id="tittle">KILIFI WATER POINT SYSTEM</h2>
+
+
+    <main class="containers">
+        <section class="container">
+            <button id="add" type="button" onclick="addTechnician()">
+                <label for="technician"> <h2>Technician</h2></label><br>
+                <input id="field" type="text" id="technician" name="technician" placeholder="Number of tasks">
+            </button>
+
+        </section>
+        <section class="container">
+            <button id="add" type="button" onclick="addTasks()">
+                <label for="tasks"><h2>Tasks</h2></label><br>
+                <input id="field" type="text" id="tasks" name="tasks" placeholder="Assigned tasks here">
+            </button>
+
+        </section>
+        <section class="container">
+            <button id="add" type="button" onclick="addPriority()">
+                <label for="priority"><h2>Tasks Priority</h2></label><br>
+                <input id="field" type="text" id="priority" name="priority" placeholder="Priority of the task">
+            </button>
+
+        </section>
+        <section class="container">
+            <button id="add" type="button" onclick="addStatus()">
+                <label for="status"><h2>Tasks Status</h2></label><br>
+                <input id="field" type="text" id="status" name="status" placeholder="Progress of the task">
+            </button>
+
+        </section>
+        <section class="container">
+            <button id="add" type="button" onclick="addLog()">
+                <label for="duration"><h2>Tasks log</h2></label><br>
+                <input id="field" type="text" id="duration" name="duration" placeholder="Duration of the task">
+            </button>
+        </section>
+        <section class="container">
+            <button id="add" type="button" onclick="addcomment()">
+                <label for="comment"><h2>Tasks Comment</h2></label><br>
+                <input id="field" type="text" id="comment" name="comment" placeholder="Comment about the task">
+            </button>
+        </section>
+        <br><br>
+        <button id="submit" type="button" onclick="submitData()">Submit</button>
+    </main>
+
+    <div class="footer">
+        <p>&copy; 2026 KILIFI WATER POINT SYSTEM. All rights reserved.</p>
+    </div>
+</body>
+
+</html>

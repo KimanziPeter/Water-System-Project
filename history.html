@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="editting.js" defer></script>
+</head>
+
+<body>
+    <section id="tittle">
+        <h3>Kilifi Water Issues Records</h3>
+    </section>
+    <main class="containers">
+        <section class="container">
+            <button id="add" type="button" onclick="addComplitedMission()">
+                <label for="CompletedMission"> <h2>Completed Mission</h2></label><br>
+                <input id="field" type="text" id="CompletedMission" name="CompletedMission" placeholder="Completed missions">
+            </button>
+        </section>
+
+        <section class="container">
+            <button id="add" type="button" onclick="addProgressingTasks()">
+                <label for="ProgressingTasks"><h2>Progressing Tasks</h2></label><br>
+                <input id="field" type="text" id="ProgressingTasks" name="ProgressingTasks" placeholder="Progressing tasks">
+            </button>
+        </section>
+
+        <section class="container">
+            <button id="add" type="button" onclick="addLatestReportedIssues()">
+                <label for="LatestReportedIssues"><h2>Latest Reported Issues</h2></label><br>
+                <input id="field" type="text" id="LatestReportedIssues" name="LatestReportedIssues" placeholder="Latest reported issues">
+            </button>
+        </section>
+        <section class="container">
+            <button id="add" type="button" onclick="addFailedMissions()">
+                <label for="FailedMissions"><h2>Failed Missions</h2></label><br>
+                <input id="field" type="text" id="FailedMissions" name="FailedMissions" placeholder="Failed missions">
+            </button>
+        </section>
+
+    </main>
+</body>
+
+</html>
